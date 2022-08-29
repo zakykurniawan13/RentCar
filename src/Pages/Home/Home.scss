@@ -1,0 +1,20 @@
+.home-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .home-container-left{
+        .content-logo{
+            width: 600px;
+            height: 300px;
+            margin-left: 50px;
+        }
+    }
+    .home-container-right{
+        display: flex;
+        justify-content: center;
+        .content-profile{
+            font-size: 30px;
+        }
+    }
+}

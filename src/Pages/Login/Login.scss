@@ -1,0 +1,73 @@
+.container-main {
+    width: 100%;
+    height: 100%;
+  }
+  .background-image {
+    width: 100%;
+    position: relative;
+  }
+  .main-inside {
+    position: absolute;
+    top: 250px;
+    left: 700px;
+  }
+  .title1 {
+    color: white;
+    font-size: 15px;
+    width: 280px;
+  }
+  .title2 {
+    color: white;
+    font-size: 40px;
+  }
+  .title3 {
+    color: white;
+    font-size: 12px;
+    width: 280px;
+    margin-bottom: 10px;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .login-btn {
+    display: flex;
+    flex: 25%;
+    background-color: rgba(135, 135, 135, 0.68);
+    justify-content: center;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    cursor: pointer;
+  }
+  .login-btn:hover {
+    background-color: #181717;
+  }
+  .text-input-container {
+    color: white;
+    background-color: transparent;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: 1px solid white;
+    border-radius: 10px;
+    .text-input {
+      width: 100%;
+      color: white;
+      background-color: transparent;
+      border: none;
+    }
+    .text-input:focus {
+      outline: none;
+    }
+  }
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+      transition: background-color 5000s ease-in-out 0s;
+  }
+  input:-webkit-autofill{
+    -webkit-text-fill-color: white !important;
+  }
+  

@@ -1,0 +1,22 @@
+.layout-wrapper {
+    display: flex;
+    width: 100%;
+    background: #1D1B1B;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .item-header {
+    display: flex;
+    background-color: #b4b4b4;
+    min-height: 50px;
+  }
+  .item-content {
+    display: flex;
+    flex: 1;
+    background-color: white;
+  }
+  .item-footer{
+    display: flex;
+    background-color: #5e96ff;
+    min-height: 100px;
+  }
